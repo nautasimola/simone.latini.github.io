@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Simone Latini's Research Group # the website title (if blank, full name will be used instead)
+title: <b>Simone</b> Latini's Group # the website title (if blank, full name will be used instead)
 first_name: Simone
 middle_name:
 last_name: Latini
@@ -100,7 +100,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to contact me via email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -116,9 +116,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: A Tale of Matter and Light # blog_name will be displayed in your blog page
+blog_nav_title: # Blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: A collection of Thoughts on things I still do not understand
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -248,7 +248,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['Light-Matter', 'Theory', 'Quantum Materials', 'Code',] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
