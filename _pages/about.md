@@ -31,5 +31,9 @@ We are a consensed matter physics group specialized in theoretical methods for a
 - Optical properties of Two-Dimensional Materials;
 - First Principles methods for Many-Body Theory.
 <br>
+<br>
+<br>
 
-<span style="color:var(--global-theme-color)">Follow our group's activity on social media (links below)!</span>
+<a href="mailto:{{ site.email | encode_email }}"><span style="color:red">Get in contact for PhD and PostDoc positions!</span></a>
+<br>
+Follow our group's activity on social media (links below)!
