@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.fysik.dtu.dk/english/research/nanomade/research-at-nanomade/theory-of-light-matter-interaction-in-quantum-materials'>Technical University of Denmark, Department of Physics.<br>
+subtitle: <a href='https://physics.dtu.dk/research/sections/2dphys'>Technical University of Denmark, Department of Physics.<br>
  <a href='https://theory.mpsd.mpg.de/'>Max Planck Institute for the Structure and Dynamics of Matter, Theory Department. </a>
 
 profile:
