@@ -28,6 +28,10 @@ jobs:
         gem install bundler
         bundle install
 
+    - name: Install Jekyll
+      run: |
+        gem install jekyll
+
     - name: Verify Ruby and Jekyll Setup
       run: |
         ruby --version
