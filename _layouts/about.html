@@ -14,7 +14,7 @@ layout: default
 
         <article>
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}" style="width: auto; max-width: 50%;">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -27,6 +27,7 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
+              width="100%"
               alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}

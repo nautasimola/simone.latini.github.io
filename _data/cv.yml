@@ -15,7 +15,7 @@
       institution: Technical University of Denmark, Kongens Lyngby, Denmark
       year: 2013-2016
       description: >
-        Title : "Excitons in van der Waals Heterostructures: A theoretical study" <br>
+        Title : "<a href="https://orbit.dtu.dk/en/publications/excitons-in-van-der-waals-heterostructures-a-theoretical-study">Excitons in van der Waals Heterostructures: A theoretical study"</a> <br>
         Thesis advisor : Prof. Kristian S. Thygesen
     - title:  Master in Science and Technology of Materials
       institution: University of Rome Tor Vergata, Italy
@@ -66,13 +66,13 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Triathlon, Skiing, Sailing and anything related to sports!
+    - Triathlon, Skiing, Sailing and anything related to sports!
     - <div class="row mt-3">
-          <div class="col-sm mt-3 mt-md-0"></div>
-          <div class="col-sm mt-3 mt-md-0">
-              <img src="../assets/img/triathlon.jpg" class="img-fluid rounded z-depth-1" >
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+              <img src="../assets/img/triathlon.jpg" class="img-fluid rounded z-depth-1">
           </div>
-          <div class="col-sm mt-3 mt-md-0"></div>
+          <div class="col-sm-2"></div>
       </div>
       <div class="caption">
           A triathlon collage.

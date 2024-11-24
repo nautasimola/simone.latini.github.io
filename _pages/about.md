@@ -9,6 +9,7 @@ profile:
   align: right
   image: Virtual_Fluctuations_10_13.jpg
   image_circular: false # crops the image to make it circular
+  width: 50% # or any size you want
   address: >
     <div style="text-align: right">
       Where to find us:<br>
@@ -21,8 +22,6 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-<font size='5'> Welcome to Simone's Research Group webpage! </font><br>
-
 
 We are a consensed matter physics group specialized in theoretical methods for ab-initio calculations. Our research interest spans the following topics:
 - Cavity Materials Engineering;
@@ -31,9 +30,5 @@ We are a consensed matter physics group specialized in theoretical methods for a
 - Optical properties of Two-Dimensional Materials;
 - First Principles methods for Many-Body Theory.
 <br>
-<br>
-<br>
 
-<a href="mailto:{{ site.email | encode_email }}"><span style="color:red">Get in contact for PhD and PostDoc positions!</span></a>
-<br>
-Follow our group's activity on social media (links below)!
+<font size='5'><a href="mailto:{{ site.email | encode_email }}"><span>Get in contact for PhD and PostDoc positions!</span></a></font>

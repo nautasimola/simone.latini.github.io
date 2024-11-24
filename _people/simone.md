@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 title: Simone Latini
-description: Group Leader
+description: Assistant Professor
 img: assets/img/mypic.png
 importance: 1
 category: toshow
