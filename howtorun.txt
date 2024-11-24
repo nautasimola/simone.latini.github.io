@@ -1,0 +1,8 @@
+echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
+
+source ~/.zshrc
+
+bundle install
+
+bundle exec jekyll serve
+
