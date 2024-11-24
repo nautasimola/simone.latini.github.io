@@ -21,7 +21,7 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0.2'
-        bundler-cache: true  # Cache installed gems for faster workflows
+        bundler-cache: true
 
     - name: Install Bundler and Dependencies
       run: |
@@ -36,7 +36,7 @@ jobs:
       run: |
         ruby --version
         bundle --version
-        jekyll --version
+        bundle exec jekyll --version
 
     - name: Install npm Dependencies
       run: |
@@ -59,6 +59,6 @@ jobs:
       run: |
         set -x  # Enable debug mode
         PATH=$PATH:$(ruby -e 'print Gem.user_dir')/bin
-        yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
-                              --src ${{ steps.setup.outputs.SRC_BRANCH }} \
-                              --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
+        yes | bundle exec bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
+                                          --src ${{ steps.setup.outputs.SRC_BRANCH }} \
+                                          --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
