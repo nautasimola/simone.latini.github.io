@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Research
 permalink: /projects/
 description: A growing collection of current and Past Research Projects.
 nav: true
