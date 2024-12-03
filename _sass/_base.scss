@@ -60,6 +60,27 @@ blockquote {
   text-align: center;
 }
 
+// Buttons
+
+.join-us-btn {
+  display: inline-block;
+  padding: 12px 50px;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #000000; /* text */
+  background-color: #88D1F4; /* background */
+  text-decoration: none;
+  border-radius: 16px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.join-us-btn:hover {
+  background-color: #ECA2C7; /* hover color */
+  color: #ffffff; /* text */
+  text-decoration: none;
+}
+
+
 // Card
 
 .card {

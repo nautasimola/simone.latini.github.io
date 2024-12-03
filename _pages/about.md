@@ -32,15 +32,20 @@ social: true  # includes social icons at the bottom of the page
     <li>First Principles methods for Many-Body Theory</li>
   </ul>
 </div>
+<br>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="mailto:{{ site.email | encode_email }}" class="join-us-btn">
+    Join Us
+  </a>
+</div>
+<br>
+
 
 <div style="text-align: center; margin: 30px 0;">
   <img src="assets/img/about_QP.png" alt="Research Overview" style="max-width: 50%; height: auto;">
 </div>
 
-<div style="margin: 20px 0;">
-  <p style="text-align: left">
-    <font size='5'><a href="mailto:{{ site.email | encode_email }}"><span>Get in contact for PhD and PostDoc positions!</span></a></font>
-  </p>
-</div>
+
 
 
