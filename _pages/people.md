@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /people/
-title: People
-description: Group Members (Under Construction)
+title: Team
+description: Active Researchers (Under Construction)
 display_categories: [toshow]
 nav: true
 nav_order: 3
