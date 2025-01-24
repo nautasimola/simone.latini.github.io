@@ -32,9 +32,8 @@ social: true  # includes social icons at the bottom of the page
     <li>First Principles methods for Many-Body Theory</li>
   </ul>
 </div>
-<br>
 
-<div style="text-align: center; margin-top: 20px;">
+<div style="text-align: center; margin-top: 50px;">
   <a href="mailto:{{ site.email | encode_email }}" class="join-us-btn">
     Join Us
   </a>
