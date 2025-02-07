@@ -6,6 +6,6 @@ description: Post Doctoral Researcher - Max Planck Institute in Hamburg in Prof.
 img: assets/img/hangpic.png
 importance: 2
 category: toshow
-#cv_pdf: CV_SL.pdf
+redirect: https://theory.mpsd.mpg.de/group/detail/07743c8b-2486-4374-8262-5aaf45f88f6a/
 ---
 
